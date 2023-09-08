@@ -137,6 +137,35 @@ git branch -d <branch_name>
 This by no means all that you can do with branches in git. To learn more type command `git branch --help` on your terminal.
 
 ## Collaboration & Remote Repositories
+Git is used for collaboration among remote teams (developers residing in different countries). But come to think of it, how can developers working remote collaborate seamlessly since on the same codebase since you currently have your code on your computer.
+
+This is where **github** comes in. Github is a web based platform where git repositories are hosted. By hosting our local git repository on github, it becomes available to the public and repostiories can also be made private. Anyone can access public repositories while people with special privileges can access the public repository.
+
+Hence, remote teams can now view, update and make changes to the same repository.
+
+### Creating A Github Account
+The following steps are taken to create a github account:
+ 1. Head over to [sign up on github.com](https://github.com/signup)
+
+ 2. Enter your username, password and email.
+ ![create account1](./images/5.%20create%20account1.png)
+
+ 3. Verify your account by solving the puzzle.
+ ![create account2](./images/5.%20create%20account2.png)
+
+ 4. Click on the Create Button to create your account.
+ ![create account3](./images/5.%20create%20account3.png)
+
+ 5. An activation code will be sent you your email, enter the code in the textboxes provided below.
+ ![create account4](./images/5.%20create%20account4.png)
+
+ ### Creating Your First Repository
+ 1. Click on the plus sign beside the search bar, a drop menu will appear. Select **New Repository**.
+ ![new repo1](./images/5.%20new%20repo1.png)
+
+ 2. Fill out the form by adding a unique repository name, description, ticking the box to add a README.md file and clicking the green button to create your repository.  
+ ![new repo2](./images/5.%20new%20repo2.png)
+
 ### Pushing Your Local Git Repository To Your Remote Github Repository
 In previous sections, you have written your story in your local repository and your friend is interested in contributing to your story but he is unable to do so because the story is currently stored locally in your macine.
 
@@ -152,7 +181,7 @@ git remote add origin <link_to_our_github_repo>
 
 * To get the remote link click on he green button code, copy the https link. A screenshot is shown below:
 
-
+![git remote link](./images/4.%20git%20remote%20link.png)
 
 * After commiting your chages in your local repo. You can push the content to the remote repo using the command below:
 
@@ -175,13 +204,16 @@ The git clone command helps to make a copy of remote repository in your local ma
 git clone <link to your remote repository>
 ```
 
+![git clone](./images/4.%20git%20clone.png)
+
 ## Branch Management and Tagging
+
 ### Introduction To Mardown Syntax
-Markdown syntax is a lightweight markuo language that is we=idely used for formatting plain text. It allows you to add formatting elements to your text without using complex HTML or other formatting languages. Markdown is commonly used for creating documents, README files, forum posts and even web pages.
+Markdown syntax is a lightweight markup language that is widely used for formatting plain text. It allows you to add formatting elements to your text without using complex HTML or other formatting languages. Markdown is commonly used for creating documents, README files, forum posts and even web pages.
 
 Here are the most commonly used markdown syntax elements:
 
-1. Headings: To create heading, use the hash symbol at the beginning of the line. The number of hash symbol indicates the level of the heading.
+1. Headings: To create heading, use the hash symbol at the beginning of the line. The number of hash symbols indicates the level of the heading.
 
 ``` md
 # Heading
@@ -189,14 +221,14 @@ Here are the most commonly used markdown syntax elements:
 ### Heading 3
 ```
 
-2. Empashis: asterisks or underscore is used to emphasize text.
+2. Empashis: Asterisks or Underscores are used to emphasize text.
 
 ```md
 *italic* or _italic_
 **bold** or __bold__
 ```
 
-3. List: markdown has support for both ordered abd unordered list.
+3. List: Markdown has support for both ordered abd unordered list.
 
 * Unordered List Example:
 
