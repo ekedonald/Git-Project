@@ -12,17 +12,27 @@ Throughout the implementation you will learn how to efficiently Initialize a Rep
 Before initializing a git repo, ensure git has been installed in your computer. Now to initialize a git repo follow these steps:
 * Open a terminal on your computer, eg git bash or terminal
 * On your terminal create your working folder or directory, eg git_project using this command:
+
 ```bash
 mkdir git_project
 ```
+
+![mkdir git_project](./images/1.%20mkdir%20git_project.png)
+
 * Change or move into your working directory or folder using this command:
+
 ```bash
 cd git_project
 ```
+
+![cd git_project](./images/1.%20cd%20git_project.png)
+
 * While you are inside the folder, run this command:
+
 ```bash
 git init
 ```
+![git init](./images/1.%20git%20init.png)
 
 ## Making Your First Commit
 In the previous section, the current working directory was initialized to a git repository. Commit in git means saving the changes made to your files. These changes can be adding, modifying or deleting files or text. When you make a commit, git takes a snapshot of the current state of your repository and saves a copy in the .git folder inside your working directory.
@@ -35,6 +45,10 @@ touch README.md
 * Write any sentence of your choice inside the text file.
 ```bash
 echo "Git Project" >> README.md
+```
+* Check the status of your repository, use the command below:
+```bash
+git status
 ```
 * Add your changes to git staging area using this command:
 ```bash
