@@ -39,25 +39,44 @@ In the previous section, the current working directory was initialized to a git 
 
 To make your first commit, the following steps are taken:
 * Inside your working directory, create a file README.md using this command:
+
 ```bash
 touch README.md
 ```
+
+![touch README](./images/2.%20touch%20README.png)
+
 * Write any sentence of your choice inside the text file.
+
 ```bash
 echo "Git Project" >> README.md
 ```
+
+![echo git_prjoect](./images/2.%20echo%20git%20project.png)
+
 * Check the status of your repository, use the command below:
+
 ```bash
 git status
 ```
+
+![git status](./images/2.%20git%20status.png)
+
 * Add your changes to git staging area using this command:
+
 ```bash
 git add README.md
 ``` 
+
+![git add README](./images/2.%20git%20add%20README.png)
+
 * To commit your changes to git, run the command:
+
 ```bash
 git commit -m "initial commit"
 ```
+
+![git commit](./images/2.%20git%20commit.png)
 
 ## Working with Branches
 Imagine you have a note book and you want to write a different story on different pages of your note book so you do not mess up your previous note. Git branch helps you create a different copy (page) of your source code. In your new branch you can make changes as you please and such can be added to the code base of your application. Your change is independent of what is available in the main copy.
@@ -72,9 +91,12 @@ To make a new branch run this command: `git checkout -b`. The -b flag helps you 
  Having made your first commit in the previous section, the following steps are taken to create your first branch:
 
 * Make a new branch by running this command:
+
 ```bash
 git checkout -b my_new_branch
 ```
+
+![git checkout1](./images/3.%20git%20checkout1.png)
 
 ### Listing  Your Git Branches
 The git branch command is used to list all the branches on your local git repository as shown below:
@@ -83,12 +105,16 @@ The git branch command is used to list all the branches on your local git reposi
 git branch
 ```
 
+![git branch](./images/3.%20git%20branch.png)
+
 ### Change Into An Old Branch
 To change to an existing or old branch, use the command below:
 
 ```bash
 git checkout <branch-name>
 ```
+
+![git checkout2](./images/3%20git%20checkout2.png)
 
 ### Merging A Branch Into Another Branch
 Lets say we two branches A and B. If you want to add the content of branch B into A. First we change into branch A and run the git command below:
@@ -97,12 +123,17 @@ Lets say we two branches A and B. If you want to add the content of branch B int
 git merge B
 ```
 
+![git merge](./images/3%20git%20merge.png)
+
 ### Deleting A Git Branch
 When a new feature is added to an applicatiom, it is done in a feature branch. Usually this feature branch is deleted when the code must have tested and merged into a staging or dev environment depending on the branch strategy of the team. Git branch can be deleted using the command shown below:
 
 ```bash
 git branch -d <branch_name>
 ```
+
+![git branch -d](./images/3%20git%20branch%20-d.png)
+
 This by no means all that you can do with branches in git. To learn more type command `git branch --help` on your terminal.
 
 ## Collaboration & Remote Repositories
@@ -117,13 +148,19 @@ Having created a github account and github repository in earlier steps, lets sen
 git remote add origin <link_to_our_github_repo>
 ```
 
+![git remote add](./images/4.%20git%20remote%20add.png)
+
 * To get the remote link click on he green button code, copy the https link. A screenshot is shown below:
+
+
 
 * After commiting your chages in your local repo. You can push the content to the remote repo using the command below:
 
 ```bash
 git push origin <branch name>
 ```
+
+![git push](./images/4.%20git%20push.png)
 
 The word origin refers to your remote link, it evaluates to the repo url. It can be any word you choose.
 
