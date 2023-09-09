@@ -165,7 +165,7 @@ The following steps are taken to create a github account:
 
  ![create account3](./images/5.%20create%20account3.png)
 
- 5. An activation code will be sent you your email, enter the code in the textboxes provided below and a Githuh account will be created.
+ 5. An activation code will be sent to your email, enter the code in the textboxes provided below and a Github account will be created.
 
  ![create account4](./images/5.%20create%20account4.png)
 
