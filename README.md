@@ -9,7 +9,7 @@ Throughout the implementation you will learn how to efficiently Initialize a Rep
 
 
 ## Initializing a Git Repository
-Before initializing a git repo, ensure git has been installed in your computer. Now to initialize a git repo follow these steps:
+Before initializing a git repo, ensure git has been installed in your computer. Now to initialize a git repository, follow these steps:
 
 * Open a terminal on your computer, eg git bash or terminal.
 
