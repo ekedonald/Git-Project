@@ -5,7 +5,7 @@ Git is an open source and free source distributed version control system designe
 
 For example, you want to make change to a website, you can make the chnange on a branch and merge the branch wiht the main branch. Basically, changes will be made to the website but with git you can revert back to previous versions of the website. Git can make comparisons between various codebases and have more information like who made those changes.
 
-Throughout the implementation you will learn how to efficiently Initialize a Repository and Make Commits Work with Branches, Collaboration and Remote Repositories, and Tagging track changes, highlighting the significance of Git in modern software development workflows. The projects not only focuses on the technical aspects of Git but also emphasizes best practices for maintaining a clean commit history, optimizing workflows, and troubleshooting common issues.
+Throughout the implementation you will learn how to efficiently Initialize a Repository and Make Commits Work, with Branches, Collaboration and Remote Repositories, and Tagging track changes, highlighting the significance of Git in modern software development workflows. The projects not only focuses on the technical aspects of Git but also emphasizes best practices for maintaining a clean commit history, optimizing workflows, and troubleshooting common issues.
 
 
 ## Initializing a Git Repository
