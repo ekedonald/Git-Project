@@ -1,9 +1,9 @@
 # Git Project
 ___
 
-Git is an open source and free source distributed version control system designed to handle everything from small to large projects with speed and efficiency. With git, you can manage files over time and revert back to those changes.
+Git is an open source and free source distributed version control system designed to handle everything from small to large projects with speed and efficiency. With git, you can manage files over time and revert back to those changes in the central repository. Git essentially solves the problem of sharing source code efficiently and keeping track of changes made to the code.
 
-For example, you want to make change to a website, you can make the chnange on a branch and merge the branch wiht the main branch. Basically, changes will be made to the website but with git you can revert back to previous versions of the website. Git can make comparisons between various codebases and have more information like who made those changes.
+For example, you want to make change to a website, you can make the change on a branch and merge the branch with the main branch. Basically, changes will be made to the website but with git you can revert back to previous versions of the website. Git can make comparisons between various codebases and have more information like who made those changes. This makes collaboration seemless since developers have their own copy of the central repository to make changes which are then pushed to the main branch.
 
 Throughout the implementation you will learn how to efficiently Initialize a Repository and Make Commits Work, with Branches, Collaboration and Remote Repositories, and Tagging track changes, highlighting the significance of Git in modern software development workflows. The projects not only focuses on the technical aspects of Git but also emphasizes best practices for maintaining a clean commit history, optimizing workflows, and troubleshooting common issues.
 
