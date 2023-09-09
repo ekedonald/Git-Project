@@ -3,7 +3,7 @@ ___
 
 Git is an open source and free source distributed version control system designed to handle everything from small to large projects with speed and efficiency. With git, you can manage files over time and revert back to those changes in the central repository. Git essentially solves the problem of sharing source code efficiently and keeping track of changes made to the code.
 
-For example, you want to make change to a website, you can make the change on a branch and merge the branch with the main branch. Basically, changes will be made to the website but with git you can revert back to previous versions of the website. Git can make comparisons between various codebases and have more information like who made those changes. This makes collaboration seemless since developers have their own copy of the central repository to make changes which are then pushed to the main branch.
+For example, you want to make change to a website, you can make the change on a branch and merge the branch with the main branch. Basically, changes will be made to the website but with git you can revert back to previous versions of the website. Git can make comparisons between various codebases and have more information like who made those changes. This makes collaboration seamless since developers have their own copy of the central repository to make changes which are then pushed to the main branch.
 
 Throughout the implementation you will learn how to efficiently Initialize a Repository and Make Commits Work, with Branches, Collaboration and Remote Repositories, and Tagging track changes, highlighting the significance of Git in modern software development workflows. The projects not only focuses on the technical aspects of Git but also emphasizes best practices for maintaining a clean commit history, optimizing workflows, and troubleshooting common issues.
 
@@ -87,12 +87,12 @@ Imagine you have a note book and you want to write a different story on differen
 
 Git branch is commonly used to develop new feature of your application. You will agree with me that the initial code is untested and such can not be added to the code base of your live application. 
 
-It is also an important tool for collaboration with remote teams (developers working from different locations). They can make seperate branches while working on same feature. And at the end of the day, coveerge their code to one branch.
+It is also an important tool for collaboration with remote teams (developers working from different locations). They can make seperate branches while working on same feature. And at the end of the day, converge their code to one branch.
 
 ### Making Your First Git Branch
 To make a new branch run this command: `git checkout -b`. The -b flag helps you create and switch to the new branch.
 
- Having made your first commit in the previous section, the following steps are taken to create your first branch:
+Having made your first commit in the previous section, the following steps are taken to create your first branch:
 
 * Make a new branch by running this command:
 
@@ -121,7 +121,7 @@ git checkout <branch-name>
 ![git checkout2](./images/3%20git%20checkout2.png)
 
 ### Merging A Branch Into Another Branch
-Lets say we two branches A and B. If you want to add the content of branch B into A. First we change into branch A and run the git command below:
+Lets say we have two branches A and B. If you want to add the content of branch B into A. First we change into branch A and run the git command shown below:
 
 ```bash
 git merge B
